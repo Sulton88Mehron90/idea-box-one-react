@@ -11,27 +11,27 @@
 
   form {
     margin: auto;
-    max-width: 800px; /* Set a max-width to prevent the form from becoming too wide on large screens */
-    padding: 20px; /* Added some padding around the form */
-    border-radius: 10px; /* Soften the form's corners */
-    background-color: rgba(240, 240, 240, 0.9); /* Slight background to make it stand out */
+    max-width: 800px;
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: rgba(240, 240, 240, 0.9); 
 }
 
 input, button {
-    margin: 10px; /* Slightly increased margin for better spacing */
-    width: 70%; /* Increased width */
+    margin: 10px; 
+    width: 70%;
     border: 2px solid black;
-    font-size: 24px; /* Increased font size */
-    padding: 10px 15px; /* Added padding for a bigger, clickable area */
-    border-radius: 5px; /* Rounded corners for a softer look */
+    font-size: 24px; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
 }
 
 button {
-    cursor: pointer; /* Indicate that the button is clickable */
-    background-color: #f06; /* Added a background color for the button */
-    color: white; /* Text color for the button */
+    cursor: pointer;
+    background-color: #f06; 
+    color: white; 
 }
 
 button:hover {
-    background-color: #d05; /* Darken button on hover for interactivity */
+    background-color: #d05;
 }
