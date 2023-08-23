@@ -1,4 +1,4 @@
-# Ideabox version 1
+# Ideabox
 This application enables users to capture their ideas on virtual cards. Users can input a title and a brief description for their ideas, which will then be displayed on the page.
 
 ## Technologies Used
