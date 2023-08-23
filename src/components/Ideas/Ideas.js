@@ -1,19 +1,42 @@
 import './Ideas.css';
 import Card from '../Card/Card';
 
-function Ideas(props){
-  const { name } = props;
+function Ideas({ ideas, deleteIdea }){
+
+  const ideaCards = ideas.map(idea => {
+    return (
+      <Card
+        title={idea.title}
+        description={idea.description}
+        id={idea.id}
+        key={idea.id}
+        deleteIdea={deleteIdea}
+      />
+    )
+  })
 
   return (
     <div className='ideas-container'>
-      <Card />
-      <Card />
-      <Card />
+      {ideaCards}
     </div>
   )
 }
-
 export default Ideas;
+
+
+// function Ideas(props){
+//   const { name } = props;
+
+//   return (
+//     <div className='ideas-container'>
+//       <Card />
+//       <Card />
+//       <Card />
+//     </div>
+//   )
+// }
+
+// export default Ideas;
 
 // function Ideas(props){
 //   return (
