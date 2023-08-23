@@ -34,7 +34,7 @@ function App() {
   return (
     <main className='App'>
       <h1>IdeaBox</h1>
-      <p>Ideas don't grow on trees... or do they? Plant one now! 🌳</p>
+      <p>Ideas don't grow on trees... or do they? Plant one now! 🌳🌲🌳</p>
       <Form addIdea={addIdea} />
       <Ideas ideas={ideas} deleteIdea={deleteIdea} />
     </main>
