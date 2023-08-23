@@ -1,6 +1,37 @@
-.ideas-container {
+/* .ideas-container {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-  }
+  } */
+
+
+.ideas-container {
+    padding: 20px;
+    background: linear-gradient(135deg, #e0f7fa, #e0e0e0);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    animation: fadeIn 0.5s;
+    overflow: hidden;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .ideas-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
