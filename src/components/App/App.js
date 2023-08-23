@@ -1,5 +1,10 @@
-import  { useState } from 'react';
+import  { useState, 
+  // useEffect 
+} from 'react';
 import './App.css';
+import Ideas from '../Ideas/Ideas';
+//import Form from '../Form/Form';
+
 
 function App(){
   const dummyIdeas = [
@@ -8,13 +13,32 @@ function App(){
         { id: 3, title: 'Learn a martial art', description: 'To exact vengeance upon my enemies' },
     ]
   const [ideas, setIdeas] = useState(dummyIdeas)
+  console.log(ideas)
+  console.log(setIdeas)
 
   return(
     <main className='App'>
-        <h1>IdeaBox</h1>
-        <p>Hi!</p>
+      <h1>IdeaBox</h1>
+      <Ideas ideas={ideas} />
     </main>
   )
+
+  // return(
+  //   <main className='App'>
+  //       <h1>IdeaBox</h1>
+  //       <p>Hi!</p>
+  //       <Ideas name='Travis'/>
+  //       {/* <Ideas potato='Parvin'/> */}
+  //   </main>
+  // )
+
+  // useEffect(() => {
+  //   console.log('Component did mount or update');
+
+  //   return () => {
+  //     console.log('Component will unmount');
+  //   };
+  // }, [ideas]);
 }
 
 export default App;
