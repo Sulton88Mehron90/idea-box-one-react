@@ -30,7 +30,7 @@ Adopt industry-standard methodologies for structuring and managing a React proje
 Craft a responsive and intuitive user interface by leveraging React's declarative style and component-driven framework.
 
 ## Project Preview
-[![Project Preview](https://www.loom.com/share/7bda3bb56e4b4506b142098357cd77c9?sid=e105baf8-5448-4185-87bc-3bc2e2caa632)](https://www.loom.com/share/7bda3bb56e4b4506b142098357cd77c9)
+[View the Project](https://www.loom.com/share/7bda3bb56e4b4506b142098357cd77c9)
 
 
 ## Set up
