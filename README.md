@@ -1,4 +1,46 @@
-# Getting Started with Create React App
+# Ideabox version 1
+This application enables users to capture their ideas on virtual cards. Users can input a title and a brief description for their ideas, which will then be displayed on the page.
+
+## Technologies Used
+Utilizing React and the create-react-app toolkit, the project is built with a combination of JavaScript, HTML, and CSS for a seamless web experience.
+
+## Countributors:
+<table>
+    <tr>
+        <td> Parvin A. Sattorova 
+            <a href="https://www.linkedin.com/in/parvin-sattorova-edwards-357526b3/">LinkedIn</a> || 
+            <a href="https://github.com/Sulton88Mehron90">GitHub</a> 
+        </td>
+    </tr>
+    <tr>
+        <td><img src="https://avatars.githubusercontent.com/u/119267809?v=4" alt="GitHub Avatar" width="150"></td>
+    </tr>
+</table>
+
+
+## Learning Goals:
+Currently, as a front-end development student at the Turing School of Software Engineering, I'm diving deep into Module 3's curriculum. A pivotal part of my learning journey is the project based on Turing's Module 3 lesson: IdeaBox lesson. This project is instrumental in solidifying my grasp on React, specifically its functional component-based architecture.
+
+Through this endeavor, I aim to:
+
+Delve deeper into the fundamental concepts of React, emphasizing its functional component paradigm.
+Showcase my ability to harness React's functional components in building a real-world application.
+Enhance my comprehension of React's modular and component-based design.
+Adopt industry-standard methodologies for structuring and managing a React project.
+Craft a responsive and intuitive user interface by leveraging React's declarative style and component-driven framework.
+
+## Project Preview
+[![Project Preview](https://www.loom.com/share/7bda3bb56e4b4506b142098357cd77c9?sid=e105baf8-5448-4185-87bc-3bc2e2caa632)](https://www.loom.com/share/7bda3bb56e4b4506b142098357cd77c9)
+
+
+## Set up
+1. Fork or clone down this respository. 
+2. In the terminal, open this app by running the command `cd <project folder name>`
+3. Run the command `npm start` to start the server.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+6. Use control C to stop the server.
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +109,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
