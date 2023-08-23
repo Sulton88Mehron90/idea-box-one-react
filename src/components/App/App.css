@@ -64,7 +64,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  font-family: 'Comic Sans MS', sans-serif; /* Just for fun! */
+  font-family: 'Comic Sans MS', sans-serif; 
   color: white;
 }
 
@@ -81,7 +81,7 @@
 
 h1 {
   font-size: 3em;
-  background: -webkit-linear-gradient(45deg, #f06, #9f6);
+  background: -webkit-linear-gradient(45deg, #f06, rgb(47, 130, 5));
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -101,7 +101,7 @@ p {
       transform: translateY(0);
   }
   to {
-      transform: translateY(-3px);
+      transform: translateY(7px);
   }
 }
 
