@@ -1,4 +1,4 @@
-form {
+/* form {
     margin: auto;
   }
   
@@ -7,4 +7,31 @@ form {
     width: 30%;
     border: 2px solid black;
     font-size: 18px;
-  }  
+  }   */
+
+  form {
+    margin: auto;
+    max-width: 800px; /* Set a max-width to prevent the form from becoming too wide on large screens */
+    padding: 20px; /* Added some padding around the form */
+    border-radius: 10px; /* Soften the form's corners */
+    background-color: rgba(240, 240, 240, 0.9); /* Slight background to make it stand out */
+}
+
+input, button {
+    margin: 10px; /* Slightly increased margin for better spacing */
+    width: 70%; /* Increased width */
+    border: 2px solid black;
+    font-size: 24px; /* Increased font size */
+    padding: 10px 15px; /* Added padding for a bigger, clickable area */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+button {
+    cursor: pointer; /* Indicate that the button is clickable */
+    background-color: #f06; /* Added a background color for the button */
+    color: white; /* Text color for the button */
+}
+
+button:hover {
+    background-color: #d05; /* Darken button on hover for interactivity */
+}
